@@ -26,7 +26,7 @@ usage
 
 this pack provide 4 hosts templates.
 
-- **rabbitmq**: prodive all check of basic health of a rabbitmq server.
+- **rabbitmq**: provide all check of basic health of a rabbitmq server.
 - **rabbitmq-exchange**: template to check a specific exchange.
 - **rabbitmq-queue**: template to check a specific queue.
 - **rabbitmq-showel**. template to check if all showel of a server is running. (require showel plugin)
