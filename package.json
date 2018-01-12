@@ -3,7 +3,7 @@
   "types": [
     "pack"
   ],
-  "version": "1.1",
+  "version": "1.1.1",
   "homepage": "https://github.com/Yupeek/pack-rabbitmq",
   "author": "Darius BERNARD",
   "description": "rabbitmq status check",
