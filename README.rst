@@ -19,7 +19,7 @@ install via shinken.io
 
 .. code::
 
-	shinken install pack-rabbitmq
+	shinken install rabbitmq
 
 usage
 =====
