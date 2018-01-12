@@ -1,0 +1,38 @@
+{
+    "name":"rabbitmq",
+    "description":"set of check of a rabbitmq message queue server",
+    "path":"messagequeue/",
+    "macros":{
+        "_RABBITMQ_HOST": {"type":"string",
+            "description":"the hostname of the rabbitmq http backend"
+        },
+        "_RABBITMQ_PORT": {"type":"integer",
+            "description": "port number of the rabbitmq http backend"
+        },
+        "_RABBITMQ_USERNAME": {"type":"string",
+            "description": "username to authenticate to the rabbitmq server"
+        },
+        "_RABBITMQ_PASSWORD": {"type":"string",
+            "description": "password to authenticate to the rabbitmq server"
+        },
+        "_RABBITMQ_VHOST": {"type":"string",
+            "description": ""
+        },
+        "_HOSTRABBITMQ_EXTRA": {"type":"string",
+            "description": "extra flags to add for connection : --ssl --ssl_strict --proxy --proxyurl"
+        },
+        "_RABBITMQ_CONNECTION_WARN": {"type":"integer",
+            "description": "Warning number of connections"
+        },
+        "_RABBITMQ_CONNECTION_CRIT": {"type": "integer",
+        	"description": "Critical number of connections"
+		},
+		"_RABBITMQ_EXCHANGE": {"type": "string",
+        	"description": "the name of the exchange to check"
+		},
+		"_RABBITMQ_EXCHANGE_PERIOD": {"type": "integer",
+        	"description": "period in seconds in which the sample will be computed."
+		},
+
+    }
+}
